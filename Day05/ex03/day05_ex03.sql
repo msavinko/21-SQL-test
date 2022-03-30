@@ -1,4 +1,6 @@
-create index idx_person_order_multi on person_order (person_id, menu_id, order_date);
+create index idx_person_order_multi on person_order (person_id desc, menu_id desc, order_date);
+
+drop index idx_person_order_multi;
 
 set enable_seqscan = off;
 EXPLAIN ANALYZE
