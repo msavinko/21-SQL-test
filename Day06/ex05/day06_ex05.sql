@@ -5,4 +5,3 @@ comment on column person_discounts.pizzeria_id is 'this is the pizzeria id';
 comment on column person_discounts.discount is 'this is the discount for every person in every pizzeria, where he ordered';
 
 --\d+ person_discounts
---comment for the person_discount table, each column
