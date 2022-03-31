@@ -1,0 +1,4 @@
+select distinct person.name
+from person
+join person_order on person.id = person_order.person_id
+order by name;
