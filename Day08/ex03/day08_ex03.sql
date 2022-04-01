@@ -13,5 +13,6 @@ commit;--Session #2
 
 select * from pizzeria where name = 'Pizza Hut';--Session #1
 commit;--Session #1
+
 select * from pizzeria where name = 'Pizza Hut';--Session #1
-select * from pizzeria where name = 'Pizza Hut';--Session #1
+select * from pizzeria where name = 'Pizza Hut';--Session #2
